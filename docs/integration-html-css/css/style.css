@@ -1,0 +1,92 @@
+/* je mais un z-index pour faire passer mon header devant le background */
+
+.header_main a {
+  display:block;
+text-align:center;
+
+}
+
+
+.header_main {
+  z-index: 1;
+  background-color: #3A4454;
+ 
+}
+
+/* je mes le background sur toute la page d'accueille */
+
+img {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  filter: blur(8px);
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.img1 {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  filter: blur(2px);
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+
+
+.size {
+    height: 35%;
+}
+
+
+
+
+.link_place {
+    margin-top: 7%;
+    margin-left: 5%;
+    font-size: 1.5em;
+}
+
+.title_place {
+  margin-top: 7%;
+  font-size: 1.5em;
+}
+
+/* Je mes la couleur blanche pour le texte de la page */
+body {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* j'ai recentrer le bloc du centre */
+.home {
+  width: 25%;
+  margin-top: 5%;
+  margin-left: 35%;
+  height: 40%;
+  font-size: 20px;
+  position: relative;
+}
+/* je sépare un peu le titre du paragraphe */
+.home h1 {
+  padding-bottom: 3%;
+}
+/* je sépare un peu le text du button */
+.home p {
+  padding-bottom: 3%;
+  font-size: 22px;
+}
+
+
+/* partie footer */
+
+
+.footer_main {
+background-color:  #3A4454;
+z-index: 1;
+height: 100%;
+margin-top: 8.5%;
+}
