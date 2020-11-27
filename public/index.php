@@ -1,5 +1,4 @@
 <?php
-
 // POINT D'ENTRÉE UNIQUE : 
 // FrontController
 
@@ -7,6 +6,7 @@
 // autoload.php permet de charger d'un coup toutes les dépendances installées avec composer
 // mais aussi d'activer le chargement automatique des classes (convention PSR-4)
 require_once '../vendor/autoload.php';
+
 
 session_start();
 
@@ -44,6 +44,8 @@ else {
 //      - "NomDuController-NomDeLaMéthode"
 //      - ainsi pour la route /, méthode "home" du MainController => "main-home"
 
+
+
 $router->map(
     'GET',
     '/',
@@ -54,6 +56,36 @@ $router->map(
     'main-home'
 );
 
+$router->map(
+    'GET',
+    '/article',
+    [
+        'method' => 'article',
+        'controller' => '\App\Controllers\ArticleController'
+    ],
+    'content-article'
+);
+
+$router->map(
+    'POST',
+    '/article',
+    [
+        'method' => 'newArticle',
+        'controller' => '\App\Controllers\ArticleController'
+    ],
+    'content-newArticle'
+);
+
+
+$router->map(
+    'GET',
+    '/addarticle',
+    [
+        'method' => 'addarticle',
+        'controller' => '\App\Controllers\ArticleController'
+    ],
+    'content-addarticle'
+);
 
 /* -------------
 --- DISPATCH ---

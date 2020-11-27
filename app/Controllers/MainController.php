@@ -2,8 +2,6 @@
 
 namespace App\Controllers;
 
-use App\Models\Category;
-use App\Models\Product;
 
 // Si j'ai besoin du Model Category
 // use App\Models\Category;

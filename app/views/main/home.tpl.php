@@ -1,20 +1,5 @@
 
-<header>
-    <nav class="navbar navbar-expand-lg  header_main navbar-center">
-      <a class="navbar-brand" href="#">CODE ONLY</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" href="#">HOME</a>
-          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"></a>
 
-        </div>
-      </div>
-    </nav>
-  </header>
 
 <body>
   <!-- header -->
@@ -33,7 +18,8 @@
           sequi possimus, officia minus facilis ut? Nesciunt doloremque accusamus, assumenda totam voluptates maxime
           quaerat
           ipsum!</p>
-        <button type="button" class="btn btn-warning w-50"><i class="fas fa-users"></i><br>JE M'INSCRIS</button>
+        <button type="button" class="btn btn-warning button-visiter2"><i class="fas fa-users"></i><br>NEWSLESTTER</button>
+        <button type="button" class="btn btn-warning button-visiter1"><i class="fas fa-users"></i><br>HOME</button>
       </div>
 
 
@@ -41,7 +27,6 @@
   </main>
 
 </body>
-
 
 
 

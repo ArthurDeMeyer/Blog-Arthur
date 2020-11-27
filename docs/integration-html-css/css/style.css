@@ -1,15 +1,42 @@
-/* je mais un z-index pour faire passer mon header devant le background */
+/* je redimensionne le formulaire pour les articles */
 
+.form-article {
+  width: 20%;
+  margin-left: 35%;
+  margin-top: 5%;
+
+}
+
+.button-add {
+  margin-left: 20%;
+  margin-top: 0%;
+}
+.return-home {
+  margin-left: 40%;
+ margin-top: 5%;
+}
+.form-add {
+  margin-bottom: 12%;
+}
+
+/* je mais un z-index pour faire passer mon header devant le background */
 .header_main a {
   display:block;
-text-align:center;
+  text-align:center;
+
+
+} 
+
+.header_main a {
+  margin-left: 2%;
+
 
 }
 
 
 .header_main {
   z-index: 1;
-  background-color: #3A4454;
+  background-color: #A9A9A9;
  
 }
 
@@ -59,6 +86,7 @@ img {
 body {
   color: white;
   font-family: 'Roboto', sans-serif;
+  background-color: blue;
 }
 
 /* j'ai recentrer le bloc du centre */
@@ -69,6 +97,21 @@ body {
   height: 40%;
   font-size: 20px;
   position: relative;
+}
+.button-visiter1 {
+  width: 33%;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0 2%;
+  margin-left: 25%;
+}
+.button-visiter2 {
+ width: 33%;
+ margin-left: 60%;
+ display: inline-block;
+ margin: 0 0%;
+ 
+    
 }
 /* je sépare un peu le titre du paragraphe */
 .home h1 {
@@ -85,8 +128,10 @@ body {
 
 
 .footer_main {
-background-color:  #3A4454;
+background-color:  #A9A9A9;
 z-index: 1;
-height: 100%;
+
 margin-top: 8.5%;
+position: absolute; 
+bottom: 0; left: 0; right: 0
 }
